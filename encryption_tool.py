@@ -1,3 +1,4 @@
+# This project is created for coursework 
 def encrypt(message, key):
     encrypted = ""
     key = key.lower()
