@@ -1,4 +1,11 @@
 # This project is created for coursework 
+""" 
+Message Encryption and Decryption Tool
+Course:Introduction to Programming 
+Student:Yunika Parajuli
+This program allows users to encrypt and decrypt messages
+using a key-based encryption technique.
+"""
 def encrypt(message, key):
     encrypted = ""
     key = key.lower()
