@@ -44,7 +44,7 @@ def decrypt(message, key):
     return decrypted
 
 
-print("MESSAGE ENCRYPTION & DECRYPTION TOOL")
+print("Welcome to the Message Encryption & Decryption Tool")
 print("1. Encrypt Message")
 print("2. Decrypt Message")
 
