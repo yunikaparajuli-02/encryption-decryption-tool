@@ -50,7 +50,7 @@ print("2. Decrypt Message")
 
 choice = input("Enter your choice (1 or 2): ")
 
-text = input("Enter your message: ")
+text = input("Enter the message you want to encrypt/decrypt: ")
 key = input("Enter key (letters only): ")
 
 if choice == "1":
