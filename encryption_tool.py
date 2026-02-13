@@ -61,7 +61,7 @@ elif choice == "2":
     result = decrypt(text, key)
     print("Decrypted Message:", result)
 else:
-    print("Invalid choice")
+    print("Invalid choice! Please enter 1 for Encrypt or 2 for Decrypt. ")
 
 
 
