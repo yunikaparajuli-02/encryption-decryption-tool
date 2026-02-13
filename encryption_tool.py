@@ -6,6 +6,7 @@ Student:Yunika Parajuli
 This program allows users to encrypt and decrypt messages
 using a key-based encryption technique.
 """
+# Function to encrypt the message 
 def encrypt(message, key):
     encrypted = ""
     key = key.lower()
@@ -24,7 +25,7 @@ def encrypt(message, key):
 
     return encrypted
 
-
+# Function to decrypt the message 
 def decrypt(message, key):
     decrypted = ""
     key = key.lower()
