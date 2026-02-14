@@ -46,6 +46,8 @@ def decrypt(message, key):
 
 
 print("Welcome to the Message Encryption & Decryption Tool")
+print("This program allows you to encrypt or decrypt messages.")
+print("Please follow the options below:\n")
 print("1. Encrypt Message")
 print("2. Decrypt Message")
 
@@ -56,7 +58,7 @@ key = input("Enter key (letters only): ")
 
 if choice == "1":
     result = encrypt(text, key)
-    print("Encrypted Message:", result)
+    print("Encrypted Message:",result)
 elif choice == "2":
     result = decrypt(text, key)
     print("Decrypted Message:", result)
