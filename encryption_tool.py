@@ -54,7 +54,11 @@ print("2. Decrypt Message")
 choice = input("Enter your choice (1 or 2): ")
 
 text = input("Enter the message you want to encrypt/decrypt: ")
-key = input("Enter key (letters only): ")
+try:
+    key = int(input("Enter numeric key (example: 3): "))
+except ValueError :
+    print ("Invalid input! Key must be a number. ")
+    exit()
 
 if choice == "1":
     result = encrypt(text, key)
