@@ -68,6 +68,7 @@ elif choice == "2":
     print("Decrypted Message:", result)
 else:
     print("Invalid choice! Please enter 1 for Encrypt or 2 for Decrypt. ")
+print("\nThank you for using the Message Encryption Tool!")
 
 
 
