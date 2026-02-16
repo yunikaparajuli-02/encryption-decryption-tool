@@ -52,7 +52,9 @@ print("1. Encrypt Message")
 print("2. Decrypt Message")
 
 choice = input("Enter your choice (1 or 2): ")
-
+# Example usage:
+# Message = HELLO
+# Key = 3
 text = input("Enter the message you want to encrypt/decrypt: ")
 try:
     key = int(input("Enter numeric key (example: 3): "))
