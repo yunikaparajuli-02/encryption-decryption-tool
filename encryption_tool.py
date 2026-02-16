@@ -1,4 +1,5 @@
 # This project is created for coursework 
+# This program demonstrates basic encrption and dcryption.
 """ 
 Message Encryption and Decryption Tool
 Course:Introduction to Programming 
@@ -57,7 +58,7 @@ choice = input("Enter your choice (1 or 2): ")
 # Key = 3
 text = input("Enter the message you want to encrypt/decrypt: ")
 try:
-    key = int(input("Enter numeric key (example: 3): "))
+    key = input("Enter key (letters only):")
 except ValueError :
     print ("Invalid input! Key must be a number. ")
     exit()
