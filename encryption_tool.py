@@ -57,6 +57,9 @@ choice = input("Enter your choice (1 or 2): ")
 # Message = HELLO
 # Key = 3
 text = input("Enter the message you want to encrypt/decrypt: ")
+if text.strip() == "":
+    print("Message cannot be empty!")
+    exit()
 try:
     key = input("Enter key (letters only):")
 except ValueError :
