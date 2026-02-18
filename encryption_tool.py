@@ -62,6 +62,9 @@ if text.strip() == "":
     exit()
 try:
     key = input("Enter key (letters only):")
+    if key.strip() =="":
+        print ("Key cannot be empty!")
+        exit ()
 except ValueError :
     print ("Invalid input! Key must be a number. ")
     exit()
