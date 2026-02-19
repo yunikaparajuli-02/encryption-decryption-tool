@@ -79,6 +79,9 @@ else:
     print("Invalid choice! Please enter 1 for Encrypt or 2 for Decrypt. ")
 print("\nThank you for using the Message Encryption Tool!")
 
-
+again= input ("Do you want to run again? (yes/no): ")
+if again.lower() == "yes":
+    print("Please restart the program.")
+    
 
 
