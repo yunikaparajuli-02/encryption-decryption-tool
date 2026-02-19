@@ -7,7 +7,9 @@ Student:Yunika Parajuli
 This program allows users to encrypt and decrypt messages
 using a key-based encryption technique.
 """
-# Function to encrypt the message 
+# Encrypt function:
+# Takes message and key as input 
+# Returns encrypted text
 def encrypt(message, key):
     encrypted = ""
     key = key.lower()
@@ -26,7 +28,9 @@ def encrypt(message, key):
 
     return encrypted
 
-# Function to decrypt the message 
+# Decrypt function:
+# Takes encrypted text and key 
+# Returns original message
 def decrypt(message, key):
     decrypted = ""
     key = key.lower()
@@ -82,6 +86,6 @@ print("\nThank you for using the Message Encryption Tool!")
 again= input ("Do you want to run again? (yes/no): ")
 if again.lower() == "yes":
     print("Please restart the program.")
-    
+
 
 
